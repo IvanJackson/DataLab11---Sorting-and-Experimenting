@@ -16,7 +16,7 @@ public class SelectionSortTester1 {
 		
 		TestingUtils.displayListElements("Original Data", data);
 		
-		SelectionSort<Integer> sorter = new SelectionSort<>(new IntegerComparator1()); 
+		SelectionSort<Integer> sorter = new SelectionSort<>(new IntegerComparator2()); 
 		 
 
 		sorter.sortList(data);

@@ -15,7 +15,7 @@ public class BubbleSortTester1 {
 		
 		TestingUtils.displayListElements("Original Data", data);
 		
-		BubbleSort<Integer> sorter = new BubbleSort<>(new IntegerComparator1()); 
+		BubbleSort<Integer> sorter = new BubbleSort<>(new IntegerComparator2()); 
 		 
 
 		sorter.sortList(data);
